@@ -81,18 +81,19 @@ console.log(result)
 const value = '1'
 
 //Escribe tu código aquí
-
-switch (value){
-    case typeof value == number:
+switch (typeof value){
+   
+    case 'number':
         console.log ('Es un numero');
         break;
 
-    case typeof value == string:
+    case 'string':
         console.log ('Es un string');
         break;
         
     default:
         console.log ('No es ni número ni string');
+        break;
 }
 
 
@@ -101,8 +102,11 @@ switch (value){
 //Ejercicio 9: Imprime en consola una lista del 0 al 10 con el bucle for
 
 //Escribe tu código aquí
-
-
+let listaNumeros = [];
+for (let i = 0; i <= 10; i++) {
+    listaNumeros.push(i);
+};
+console.log(listaNumeros);
 //Ejercicio 10: Con un bucle for in imprime en pantalla todos los nombres, apellidos y su aporte a la sociedad de las programadoras de la historia contenidas en el array llamado 'programmers', Deberás imprimir el índice y la información de cada una de ellas de la siguiente manera: '0: Ada Lovelace, su aporte fue la máquina analítica'. 
 
 const programmers = [
