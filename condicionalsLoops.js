@@ -70,7 +70,7 @@ switch (pet){
 
 const weather = "frío"
 
-const result = weather == 'soleado'? 'Me vestire con un vestido' : 'Me vestire con pantalon'
+const result = weather == 'soleado'? 'Me vestire con un vestido' : 'Me vestire con pantalon';
 
 console.log(result)
 
@@ -143,7 +143,9 @@ for (let i in programmers){
 const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
 
 //Escribe tu código aquí
-
+ for (let j of names){
+    console.log (`Hola mi nombre es ${j}.`);
+ }
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
