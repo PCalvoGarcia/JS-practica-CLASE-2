@@ -13,8 +13,15 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 const age = 18
 //Escribe tu código aquí
 
+if (age >= 18) {
+    console.log (age)
+} else {
+    console.log ('No eres mayor de edad')
+}
 
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
+
+
 
 
 //Ejercicio 3: Escribe un condicional if/else que lea la constante pet y si es un perro, que imprima en la consola "Tengo un perro", si es un gato, que imprima en la consola "Tengo un gato", si es un pájaro, que imprima en la consola "Tengo un pájaro" y si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
