@@ -145,12 +145,20 @@ const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
 //Escribe tu código aquí
  for (let j of names){
     console.log (`Hola mi nombre es ${j}.`);
- }
+ };
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
 //Escribe tu código aquí
+let lista12 = [];
+let k = 1;
 
+do {
+    lista12.push(k);
+    k++;
+} while (k<=5)
+
+console.log (lista12)
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
