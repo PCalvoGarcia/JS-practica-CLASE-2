@@ -134,6 +134,9 @@ const programmers = [
 
 //Escribe tu código aquí
 
+for (let i in programmers){
+    console.log(`${i}: ${programmers[i].name} ${programmers[i].lastname}, su aporte fue ${programmers[i].knowledge}.`)
+}
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
