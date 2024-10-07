@@ -29,6 +29,24 @@ if (age >= 18) {
 const pet = "perro";
 //Escribe tu código aquí
 
+switch (pet){
+    case 'perro':
+        console.log("Tengo un perro");
+        break;
+    
+    case 'gato':
+        console.log("Tengo un gato");
+        break;
+
+    case 'pájaro':
+        console.log("Tengo un pájaro");
+        break;
+
+    default:
+        console.log("No tengo una mascota convencional");
+        break;
+}
+
 
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
 
