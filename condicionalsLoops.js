@@ -10,11 +10,11 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Ejercicio 1: Escribe un condicional if/else que imprima en la consola 'Eres mayor de edad' cuando la constante age tenga el valor correspondiente, si no es así, debe imprimir 'No eres aún mayor de edad'
 
-const age = 18
+const age = 12;
 //Escribe tu código aquí
 
 if (age >= 18) {
-    console.log (age)
+    console.log ('Eres mayor de edad')
 } else {
     console.log ('No eres mayor de edad')
 }
