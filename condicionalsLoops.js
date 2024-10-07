@@ -38,7 +38,7 @@ if (pet == 'perro') {
             console.log ('Tengo un pájaro');
         } else {
             console.log ('No tengo una mascota convencional');
-        };
+        }
 
 
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
