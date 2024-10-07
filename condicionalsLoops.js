@@ -82,6 +82,19 @@ const value = '1'
 
 //Escribe tu código aquí
 
+switch (value){
+    case typeof value == number:
+        console.log ('Es un numero');
+        break;
+
+    case typeof value == string:
+        console.log ('Es un string');
+        break;
+        
+    default:
+        console.log ('No es ni número ni string');
+}
+
 
 //BUCLES
 
