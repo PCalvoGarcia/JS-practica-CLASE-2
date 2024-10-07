@@ -152,14 +152,20 @@ const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
 //Escribe tu código aquí
 let lista12 = [];
 let k = 1;
-
-do {
+while (k<=5){
     lista12.push(k);
     k++;
-} while (k<=5)
+}
 
-console.log (lista12)
+console.log (lista12);
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
+let lista13 = [];
+do {
+    k--;
+    lista13.unshift(k);
+} while (k>1)
+
+console.log (lista13);
